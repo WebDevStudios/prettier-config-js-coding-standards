@@ -1,6 +1,6 @@
 <a href="https://webdevstudios.com/contact/"><img src="https://webdevstudios.com/wp-content/uploads/2018/04/wds-github-banner.png" alt="WebDevStudios. WordPress for big brands."></a>
 
-# Prettier Config for WebDevStudios JavaScript Coding Standards
+# Prettier Config for [WebDevStudios JavaScript Coding Standards](https://github.com/WebDevStudios/js-coding-standards)
 
 ## How to Install
 
