@@ -6,19 +6,6 @@
 
 Install [`@webdevstudios/js-coding-standards`](https://github.com/WebDevStudios/js-coding-standards)
 
-## Sublime Text 3
-
-Install the PrettierJS package, and you can use this configuration:
-
-```
-{
-  "auto_format_on_save": true,
-  "auto_format_on_save_requires_prettier_config": true,
-  "allow_inline_formatting": true,
-  "prettier_options": {}, // Start off with nothing.
-}
-```
-
 ## Changlog
 
 ## 1.0.0
@@ -42,4 +29,4 @@ Install the PrettierJS package, and you can use this configuration:
 
 - Override `printWidth` from `@wordpress/prettier-config` to be `99000`, pretty big, because we don't explicitly have a rule for this internally
 - Added `bracketSpacing` because `@wordpress/prettier-config` doesn't explicity set it
-- Installed `https://github.com/Automattic/wp-prettier` so we can add `parenSpacing` support
+- Installed `https://github.com/Automattic/wp-prettier` so we can add `parenSpacing` support so `( true )` doesn't get auto-formatted to `(true)`
