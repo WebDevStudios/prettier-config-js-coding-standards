@@ -13,7 +13,7 @@ Install [`@webdevstudios/js-coding-standards`](https://github.com/WebDevStudios/
 - Uses `@wordpress/prettier-config` as a base, which currently includes:
 
 ```json
-{
+[
     useTabs: true,
     tabWidth: 4,
     printWidth: 80,
@@ -24,7 +24,7 @@ Install [`@webdevstudios/js-coding-standards`](https://github.com/WebDevStudios/
     jsxBracketSameLine: false,
     semi: true,
     arrowParens: 'always',
-}
+]
 ```
 
 - Override `printWidth` from `@wordpress/prettier-config` to be `99000`, pretty big, because we don't explicitly have a rule for this internally
