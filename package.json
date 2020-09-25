@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/WebDevStudios/prettier-config-js-coding-standards/issues"
   },
-  "homepage": "https://github.com/WebDevStudios/prettier-config-js-coding-standards#readme"
+  "homepage": "https://github.com/WebDevStudios/prettier-config-js-coding-standards#readme",
+  "dependencies": {
+    "prettier": "2.1.2"
+  }
 }
