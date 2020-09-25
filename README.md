@@ -23,4 +23,23 @@ Install the PrettierJS package, and you can use this configuration:
 
 ## 1.0.0
 
-- Uses `@wordpress/prettier-config` as a base for automatically fixing
+- Uses `@wordpress/prettier-config` as a base, which currently includes:
+
+```json
+{
+    useTabs: true,
+    tabWidth: 4,
+    printWidth: 80,
+    singleQuote: true,
+    trailingComma: 'es5',
+    bracketSpacing: true,
+    parenSpacing: true,
+    jsxBracketSameLine: false,
+    semi: true,
+    arrowParens: 'always',
+}
+```
+
+- Override `printWidth` from `@wordpress/prettier-config` to be `99000`, pretty big, because we don't explicitly have a rule for this internally
+- Added `bracketSpacing` because `@wordpress/prettier-config` doesn't explicity set it
+- Installed `https://github.com/Automattic/wp-prettier` so we can add `parenSpacing` support
