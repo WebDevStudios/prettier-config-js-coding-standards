@@ -10,7 +10,7 @@ Install [`@webdevstudios/js-coding-standards`](https://github.com/WebDevStudios/
 
 ## 1.0.0
 
-- Uses `@wordpress/prettier-config` as a base, which currently includes:
+- Uses `@wordpress/prettier-config` as a base, which currently explicitly uses:
 
 ```js
 {
