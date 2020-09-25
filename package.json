@@ -2,7 +2,7 @@
   "name": "@webdevstudios/prettier-config-js-coding-standards",
   "version": "1.0.0",
   "description": "Prettier Support/Configuration for WebDevStudios JavaScript Coding Standards.",
-  "main": "index.json",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/WebDevStudios/prettier-config-js-coding-standards#readme",
   "dependencies": {
+    "@wordpress/prettier-config": "~0.4.0",
     "prettier": "2.1.2"
   }
 }
