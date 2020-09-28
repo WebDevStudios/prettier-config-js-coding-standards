@@ -1,6 +1,6 @@
 {
   "name": "@webdevstudios/prettier-config-js-coding-standards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prettier Support/Configuration for WebDevStudios JavaScript Coding Standards.",
   "main": "index.js",
   "scripts": {
