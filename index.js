@@ -1,5 +1,10 @@
 module.exports = {
-  ...require("@wordpress/prettier-config"),
-  printWidth: 99000,
-  bracketSpacing: true,
+	overrides: {
+		files: [ '*.js', '*.jsx' ],
+		options: {
+			...require( '@wordpress/prettier-config' ),
+			printWidth: 99000,
+			bracketSpacing: true,
+		},
+	},
 };
