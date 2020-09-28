@@ -8,6 +8,14 @@ Install [`@webdevstudios/js-coding-standards`](https://github.com/WebDevStudios/
 
 ## Changlog
 
+## 1.0.1
+
+- Fix issue where configuration could format other code, not just JavaScript <sup>[PR](https://github.com/WebDevStudios/prettier-config-js-coding-standards/pull/1)</sup>
+
+Note, this patch ensures that the config for JavaScript does not act as a config for example, CSS. But, given that some editor packages may have defaults, you may still get formatting from your editor. But, e.g. `prettier --write file.css` won't auto-format CSS code using this config.
+
+See the PR for what JavaScript-ish files we process with this config.
+
 ## 1.0.0
 
 - Uses `@wordpress/prettier-config` as a base, which currently explicitly uses:
