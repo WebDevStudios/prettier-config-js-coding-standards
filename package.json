@@ -12,7 +12,7 @@
   },
   "author": "WebDevStudios",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://github.com/WebDevStudios/prettier-config-js-coding-standards#readme",
+  "homepage": "https://github.com/WebDevStudios/js-coding-standards",
   "dependencies": {
     "@wordpress/prettier-config": "~0.4.0",
     "prettier": "npm:wp-prettier@~2.0.5"
@@ -24,7 +24,6 @@
       "url": "http://aubreypwd.com"
     }
   ],
-  "homepage": "https://github.com/WebDevStudios/js-coding-standards",
   "bugs": {
     "url": "https://github.com/WebDevStudios/js-coding-standards/issues"
   }
