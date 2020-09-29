@@ -16,6 +16,10 @@ Note, this patch ensures that the config for JavaScript does not act as a config
 
 See the PR for what JavaScript-ish files we process with this config.
 
+## 1.0.1
+
+- Installs `@webdevstudios/prettier-config-coding-standards` so that you can now set your `package.json` `prettier` setting to `@webdevstudios/prettier-config-coding-standards` which dynamically load all prettier configs for all coding standard packages, depending on what you have installed
+
 ## 1.0.0
 
 - Uses `@wordpress/prettier-config` as a base, which currently explicitly uses:
