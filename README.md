@@ -8,6 +8,10 @@ Install [`@webdevstudios/js-coding-standards`](https://github.com/WebDevStudios/
 
 ## Changlog
 
+## 1.0.2
+
+- Installs `@webdevstudios/prettier-config-coding-standards` so that you can now set your `package.json` `prettier` setting to `@webdevstudios/prettier-config-coding-standards` which dynamically load all prettier configs for all coding standard packages, depending on what you have installed
+
 ## 1.0.1
 
 - Fix issue where configuration could format other code, not just JavaScript <sup>[PR](https://github.com/WebDevStudios/prettier-config-js-coding-standards/pull/1)</sup>
@@ -15,10 +19,6 @@ Install [`@webdevstudios/js-coding-standards`](https://github.com/WebDevStudios/
 Note, this patch ensures that the config for JavaScript does not act as a config for example, CSS. But, given that some editor packages may have defaults, you may still get formatting from your editor. But, e.g. `prettier --write file.css` won't auto-format CSS code using this config.
 
 See the PR for what JavaScript-ish files we process with this config.
-
-## 1.0.1
-
-- Installs `@webdevstudios/prettier-config-coding-standards` so that you can now set your `package.json` `prettier` setting to `@webdevstudios/prettier-config-coding-standards` which dynamically load all prettier configs for all coding standard packages, depending on what you have installed
 
 ## 1.0.0
 
