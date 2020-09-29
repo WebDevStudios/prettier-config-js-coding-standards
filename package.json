@@ -12,7 +12,7 @@
   },
   "author": "WebDevStudios",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://github.com/WebDevStudios/js-coding-standards",
+  "homepage": "https://github.com/WebDevStudios/prettier-config-js-coding-standards",
   "dependencies": {
     "@webdevstudios/prettier-config-coding-standards": "~1.0.0",
     "@wordpress/prettier-config": "~0.4.0",
