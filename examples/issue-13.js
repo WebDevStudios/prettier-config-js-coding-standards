@@ -27,7 +27,15 @@ if ( true ) {
 }
 
 if ( true ) {
-	const a = true;
+	const a = [
+		'my',
+		'thing',
+		'thing',
+		'thing',
+		'thing',
+		'thing',
+		'thing',
+	];
 
 	// The blank line above will not be collapsed by prettier.
 	return a;
