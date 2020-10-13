@@ -17,7 +17,7 @@
     "@webdevstudios/prettier-config-coding-standards": "~1.0.0",
     "@wordpress/prettier-config": "~0.4.0",
     "eslint": "~7.4.0",
-    "prettier": "npm:wp-prettier@~2.0.5"
+    "prettier-eslint-cli": "~5.0.0"
   },
   "contributors": [
     {
