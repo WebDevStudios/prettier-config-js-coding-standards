@@ -2,6 +2,12 @@
 
 # Prettier Config for [WebDevStudios JavaScript Coding Standards](https://github.com/WebDevStudios/js-coding-standards)
 
+------
+
+**This package is DEPRECATED and no longer in use at WebDevStudios and will no longer be maintained.**
+
+------
+
 ## How to Install
 
 Install [`@webdevstudios/js-coding-standards`](https://github.com/WebDevStudios/js-coding-standards)
